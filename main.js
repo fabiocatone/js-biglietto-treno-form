@@ -29,7 +29,7 @@ let ticketcost = document.getElementById("Costo")
 ticketname.innerText = nameEl.value
 ticketcarr.innerText = "7"
 ticketcod.innerText = "47389"
-ticketcost.innerText = cost
+ticketcost.innerText = cost.toFixed(2) + "€"
 
 
 
